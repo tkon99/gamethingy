@@ -1,0 +1,36 @@
+body{
+	background-color: black;
+	margin: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+#app{
+	position: relative;
+  	width: 50%;
+  	/*background-color: green;*/
+  	margin: 0 auto;
+  	margin-left: 25%;
+  	border-color: green;
+  	border-width: 1px;
+  	border-style: solid;
+}
+#app:after{
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+
+.block{
+	position: absolute;
+	width: 2%;
+	height: 2%;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.green{
+	background-color: green;
+}
