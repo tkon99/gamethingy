@@ -14,11 +14,12 @@ body{
   	border-color: green;
   	border-width: 1px;
   	border-style: solid;
+  	max-height: 99vh;
 }
 #app:after{
 	content: "";
 	display: block;
-	padding-bottom: 100%;
+	padding-bottom: 99%;
 }
 
 .block{
