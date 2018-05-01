@@ -30,29 +30,31 @@ function p(crds, color) {
 function drawLetter(letter, color, crds) {
 	switch (letter) {
 		case "a":
-			a([crds[0] - 2, crds[0] + 1], color);
-			a([crds[0] - 2, crds[0] + 0], color);
-			a([crds[0] - 2, crds[0] - 1], color);
-			a([crds[0] - 1, crds[0] - 2], color);
-			a([crds[0] - 0, crds[0] - 2], color);
-			a([crds[0] + 1, crds[0] - 1], color);
-			a([crds[0] + 1, crds[0] + 0], color);
-			a([crds[0] + 1, crds[0] + 1], color);
-			a([crds[0] - 1, crds[0] - 0], color);
-			a([crds[0] - 0, crds[0] - 0], color);
+			a([crds[0] - 0, crds[1] + 1], color);
+			a([crds[0] - 0, crds[1] + 0], color);
+			a([crds[0] - 0, crds[1] - 1], color);
+			a([crds[0] + 1, crds[1] - 2], color);
+			a([crds[0] + 2, crds[1] - 2], color);
+			a([crds[0] + 3, crds[1] - 1], color);
+			a([crds[0] + 3, crds[1] + 0], color);
+			a([crds[0] + 3, crds[1] + 1], color);
+			a([crds[0] + 1, crds[1] - 0], color);
+			a([crds[0] + 2, crds[1] - 0], color);
+			return 5;
 			break;
 		
 		case "b":
-			a([crds[0] - 2, crds[0] + 1], color);
-			a([crds[0] - 2, crds[0] + 0], color);
-			a([crds[0] - 2, crds[0] - 1], color);
-			a([crds[0] - 2, crds[0] - 2], color);
-			a([crds[0] - 2, crds[0] - 3], color);
-			a([crds[0] - 1, crds[0] - 3], color);
-			a([crds[0] - 0, crds[0] - 2], color);
-			a([crds[0] - 1, crds[0] - 1], color);
-			a([crds[0] - 0, crds[0] - 0], color);
-			a([crds[0] - 1, crds[0] + 1], color);
+			a([crds[0] + 0, crds[1] + 1], color);
+			a([crds[0] - 0, crds[1] + 0], color);
+			a([crds[0] - 0, crds[1] - 1], color);
+			a([crds[0] - 0, crds[1] - 2], color);
+			a([crds[0] - 0, crds[1] - 3], color);
+			a([crds[0] + 1, crds[1] - 3], color);
+			a([crds[0] + 2, crds[1] - 2], color);
+			a([crds[0] + 1, crds[1] - 1], color);
+			a([crds[0] + 2, crds[1] - 0], color);
+			a([crds[0] + 1, crds[1] + 1], color);
+			return 4;
 			break;
 		
 		case "c":
@@ -95,30 +97,30 @@ function drawLetter(letter, color, crds) {
 			break;
 
 		case "p":
-			a([crds[0] - 2, crds[0] + 1], color);
-			a([crds[0] - 2, crds[0] + 0], color);
-			a([crds[0] - 2, crds[0] - 1], color);
-			a([crds[0] - 2, crds[0] - 2], color);
-			a([crds[0] - 2, crds[0] - 3], color);
-			a([crds[0] - 1, crds[0] - 3], color);
-			a([crds[0] - 0, crds[0] - 2], color);
-			a([crds[0] - 1, crds[0] - 1], color);
+			a([crds[0] - 2, crds[1] + 1], color);
+			a([crds[0] - 2, crds[1] + 0], color);
+			a([crds[0] - 2, crds[1] - 1], color);
+			a([crds[0] - 2, crds[1] - 2], color);
+			a([crds[0] - 2, crds[1] - 3], color);
+			a([crds[0] - 1, crds[1] - 3], color);
+			a([crds[0] - 0, crds[1] - 2], color);
+			a([crds[0] - 1, crds[1] - 1], color);
 			break;
 		
 		case "q":
 			break;
 
 		case "r":
-			a([crds[0] - 2, crds[0] + 1], color);
-			a([crds[0] - 2, crds[0] + 0], color);
-			a([crds[0] - 2, crds[0] - 1], color);
-			a([crds[0] - 2, crds[0] - 2], color);
-			a([crds[0] - 2, crds[0] - 3], color);
-			a([crds[0] - 1, crds[0] - 3], color);
-			a([crds[0] - 0, crds[0] - 2], color);
-			a([crds[0] - 1, crds[0] - 1], color);
-			a([crds[0] - 0, crds[0] - 0], color);
-			a([crds[0] - 0, crds[0] + 1], color);
+			a([crds[0] - 2, crds[1] + 1], color);
+			a([crds[0] - 2, crds[1] + 0], color);
+			a([crds[0] - 2, crds[1] - 1], color);
+			a([crds[0] - 2, crds[1] - 2], color);
+			a([crds[0] - 2, crds[1] - 3], color);
+			a([crds[0] - 1, crds[1] - 3], color);
+			a([crds[0] - 0, crds[1] - 2], color);
+			a([crds[0] - 1, crds[1] - 1], color);
+			a([crds[0] - 0, crds[1] - 0], color);
+			a([crds[0] - 0, crds[1] + 1], color);
 			break;
 
 		case "s":
@@ -150,10 +152,19 @@ function drawLetter(letter, color, crds) {
 	}
 }
 
+function typeWord(word, color, crds){
+	let currentCrds = crds;
+	for(i in word){
+		let currentWidth = drawLetter(word[i],color,currentCrds);
+		currentCrds = [currentCrds[0] + currentWidth, currentCrds[1]];
+	}
+}
+
 var previous = [];
 
 function doMenu() {
-	drawLetter("r", "blue", [5,5]);
+	//typeWord("ab", "green", [24,24]);
+	drawLetter("a", "green", [24,24]);
 }
 
 function doGame() {
